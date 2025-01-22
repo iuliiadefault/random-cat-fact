@@ -1,7 +1,7 @@
 import { useColorScheme } from 'react-native';
 import { Stack } from 'expo-router';
 
-import { Colors } from '@/Constants/Colors';
+import { Colors } from '@/constants/Colors';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -16,7 +16,6 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: Colors[colorScheme ?? 'light'].mainBg },
         }}
       />
-      <Stack.Screen name="Home" options={{ title: 'Home', headerShown: false }} />
     </Stack>
   );
 }

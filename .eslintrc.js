@@ -2,7 +2,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'react-native', 'jest', 'simple-import-sort', 'unused-imports'],
   extends: [
-    'expo',
     'eslint:recommended',
     '@react-native-community',
     'plugin:@typescript-eslint/recommended',
