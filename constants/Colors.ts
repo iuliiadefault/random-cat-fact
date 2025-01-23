@@ -6,6 +6,7 @@
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 const mainBg = '#413023';
+const skin = '#ede0c9';
 const buttonBgPrimary = '#a68e64';
 
 export const Colors = {
@@ -18,6 +19,7 @@ export const Colors = {
     tabIconSelected: tintColorLight,
     mainBg,
     buttonBgPrimary,
+    skin,
   },
   dark: {
     text: '#ECEDEE',
@@ -28,5 +30,6 @@ export const Colors = {
     tabIconSelected: tintColorDark,
     mainBg,
     buttonBgPrimary,
+    skin,
   },
 };
